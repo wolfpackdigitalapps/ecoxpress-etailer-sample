@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <button onclick="openMap()">Ship with ecoXpress Popup</button>
+
+    <br/>
+    <br/>
+    <button onclick="toggleEcoXpressIframe()">Ship with ecoXpress embedded</button>
+    <iframe id="eco-xpress-map-eco-agent-selector" style="display: none;" width="1000" height="500" src="https://wp-development.ecoxpress.ie/simple-g-map"></iframe>
+
+    <br>
+    <p id="eco-xpress-location-selected"></p>
+    <br>
+    <button type="button" id="complete-order-button" disabled>Complete Order</button>
+  </body>
+</html>
